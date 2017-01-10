@@ -34,6 +34,8 @@ The face is aligned by three landmarks including two inter-ocular points and one
 
 ##MXNet
 
+[MXNet](http://mxnet.io/) is a great deep learning framework and can be used on Android efficiently and flexibly.
+
 I have compiled mxnet for android with ndk-r13b. You can alse refer to my blog for more details.
 
 >http://blog.csdn.net/tinyzhao/article/details/53288102
@@ -42,4 +44,4 @@ You can also download compiled libmxnet_predict.so [here](https://github.com/fly
 
 ##Result
 
-I test on my Xiaomi 4C (Snapdragon 808) and I get about 0.8s per image.
+I test on my Xiaomi 4C (Snapdragon 808) and I get about 1.5s per image.
