@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FaceVerification</string>
+
+	<string name="default_nothing">Nothing</string>
+    <string name="action_settings">Settings</string>
+    <string name="identify_button_text">Who is this?</string>
+    <string name="action_register">Register</string>
+    <string name="action_verification">Verification</string>
 </resources>

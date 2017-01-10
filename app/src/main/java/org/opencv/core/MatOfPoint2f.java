@@ -40,7 +40,7 @@ public class MatOfPoint2f extends Mat {
 			super.create(elemNumber, 1, CvType.makeType(_depth, _channels));
 	}
 
-	public void fromArray(Point... a) {
+	public void  fromArray(Point... a) {
 		if (a == null || a.length == 0)
 			return;
 		int num = a.length;

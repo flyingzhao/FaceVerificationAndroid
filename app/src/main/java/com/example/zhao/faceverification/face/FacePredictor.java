@@ -26,7 +26,6 @@ public class FacePredictor {
     }
     public static Predictor getPredictor() {
 
-
         Predictor.Device device = new Predictor.Device(Predictor.Device.Type.CPU, 0);
         final int[] shape = {1, 1,128, 128};
         String key = "data";
