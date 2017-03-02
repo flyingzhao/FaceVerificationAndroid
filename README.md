@@ -30,7 +30,7 @@ The paper can be found below
 
 My notes about this paper: [VanillaCNN](http://blog.csdn.net/tinyzhao/article/details/53559373)
 
-The original implement is baseon on Caffe, and I have turned it into MXNet model.You can get more details from below:
+The original implementation is based on Caffe, and I have turned it into MXNet model.You can get more details from below:
 
 >https://github.com/flyingzhao/mxnet_VanillaCNN
 
