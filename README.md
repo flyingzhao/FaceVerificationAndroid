@@ -28,7 +28,11 @@ The paper can be found below
 
 >http://www.openu.ac.il/home/hassner/projects/tcnn_landmarks/ 
 
-My notes about this paper:[VanillaCNN](http://blog.csdn.net/tinyzhao/article/details/53559373)
+My notes about this paper: [VanillaCNN](http://blog.csdn.net/tinyzhao/article/details/53559373)
+
+The original implement is baseon on Caffe, and I have turned it into MXNet model.You can get more details from below:
+
+>https://github.com/flyingzhao/mxnet_VanillaCNN
 
 The face is aligned by three landmarks including two inter-ocular points and one mid-mouth point. Affine transformation is applied with these three points.
 
@@ -36,7 +40,7 @@ The face is aligned by three landmarks including two inter-ocular points and one
 
 [MXNet](http://mxnet.io/) is a great deep learning framework and can be used on Android efficiently and flexibly.
 
-I have compiled mxnet for android with ndk-r13b. You can alse refer to my blog for more details.
+I have compiled mxnet for android with ndk-r13b. You can also refer to my blog for more details.
 
 >http://blog.csdn.net/tinyzhao/article/details/53288102
 
