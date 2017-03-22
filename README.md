@@ -1,12 +1,12 @@
-#Face Verification on Android
+# Face Verification on Android
 
 Face verification with mxnet on android
 
-##Face Detection
+## Face Detection
 
 OpenCV has an in-built Viola-Jones face detector which is used here to detect faces.
 
-##Face Verification
+## Face Verification
 
 I use pre-trained LightenedCNN as feature extractor. 
 
@@ -20,7 +20,7 @@ My notes about this paper: [Lightened CNN](http://blog.csdn.net/tinyzhao/article
 
 The similarity metric is cosine similarity. The threshold should be about 0.5 ,and it should be adjusted according to specific applications.
 
-##Face Alignment
+## Face Alignment
 
 I use VanillaCNN to detect facial landmarks. This step is crucial for high accuracy.
 
@@ -36,7 +36,7 @@ The original implementation is based on Caffe, and I have turned it into MXNet m
 
 The face is aligned by three landmarks including two inter-ocular points and one mid-mouth point. Affine transformation is applied with these three points.
 
-##MXNet
+## MXNet
 
 [MXNet](http://mxnet.io/) is a great deep learning framework and can be used on Android efficiently and flexibly.
 
@@ -46,6 +46,6 @@ I have compiled mxnet for android with ndk-r13b. You can also refer to my blog f
 
 You can also download compiled libmxnet_predict.so [here](https://github.com/flyingzhao/FaceVerificationAndroid/blob/master/app/src/main/jniLibs/armeabi/libmxnet_predict.so)
 
-##Result
+## Result
 
 I test on my Xiaomi 4C (Snapdragon 808) and I get about 1.5s per image.
